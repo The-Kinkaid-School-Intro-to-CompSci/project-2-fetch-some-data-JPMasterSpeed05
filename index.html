@@ -2,12 +2,68 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The name of your website</title> 
+        <title>Brawlers Here!</title> 
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        Your HTML goes here
+        <main>
+            <section class="container">
+              <div role="search" id="search-section">
+                <h1 id = "header">Brawler Search App</h1>
+                <label for="search-input">Search for Brawler Name:</label>
+                <input type="text" name="pokemon" id="search-input" required="">
+                <button id="search-button">Enter</button>
+              </div>
+              <div class="output">
+                <div class="top-container">
+                  <div class="name">
+                    <h2 id="bralwer-name">Lilly</h2>
+                  </div>
+                  <div class="class">
+                    <h3 id="rarity">Mythic</h3>
+                  </div>
+                  <div id="sprite-container" class="sprite-container">
+                    <img id="sprite" src="https://cdn-old.brawlify.com/brawler/Lily.png" alt="Lilly">
+                  </div>
+                  <div id="description">
+                    <span id="about" class="type">A nerd at heart and a total witchcraft buff, Lily's thirst for knowledge once led her into the Enchanted Woods, where an incident involving a firefly and a carnivorous plant would change her life forever...
+                    </span>
+                  </div>
+                </div>
+                <div class="bottom-container">
+                    <div class="row1">
+                      <div class="colum1">
+                        <h4 class="g1">Gadget 1</h4>
+                        <h5 id="g1-name">Vanish</h5>
+                        <p id="g1-description">Lily enters the Shadow Realm for x seconds</p>
+                        <img id="g1-img" src= "https://cdn-fankit.brawlify.com/lily_gadget_01.png">
+                      </div>
+                      <div class="colum2">
+                        <h4 class="g2">Gadget 2</h4>
+                        <h5 id="g2-name">Repot</h5>
+                        <p id="g2-desciption">The next flourish, becomes a thrown attack, and Lily teleports to the destination on impact</p>
+                        <img id="g2-img" src= "https://cdn-fankit.brawlify.com/lily_gadget_02.png">
+                      </div>
+                    </div>
+                    <div class="row2">
+                      <div clas="colum3">
+                        <h4 class="s1">StarPower 1</h4>
+                        <h5 id="s1-name">Spiky</h5>
+                        <p id="s1-description">After teleporting to an enemy, Lily's next attack deals x more damage</p>
+                        <img id="s1-img" src= "https://cdn-fankit.brawlify.com/lily_starpower_01.png">
+                      </div>
+                      <div clas="colum4">
+                        <h4 class="s2">StarPower 2</h4>
+                        <h5 id="s2-name">Vigilance</h5>
+                        <p id="s2-description">Gain x% movement speed while an enemy is in her Super charge radius</p>
+                        <img id="s2-img" src= "https://cdn-fankit.brawlify.com/lily_starpower_02.png">
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <a href="https://brawlify.com/">Credits for Info</a>
+            </section>
+          </main>   
     </body>
 </html>

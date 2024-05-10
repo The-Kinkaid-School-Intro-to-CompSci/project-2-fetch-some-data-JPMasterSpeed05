@@ -1,21 +1,78 @@
-/** CSS Reset */
-/* You can keep or remove this, if you'd like */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+body {
+  background-image: url(./assets/brawl.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+  overflow: auto;
 }
 
-* {
-  margin: 0;
+html {
+  overflow: hidden;
+  height: 99%;
+  line-height: 1;
+}
+#sprite {
+  min-width: 100%;
+  min-height: 100%;
+}
+div {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#g1-img,#g2-img,#s1-img,#s2-img {
+  display:block;
+  margin:auto;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
 }
 
-/** You can define your own CSS variables here */
-:root {
-  /** Example: */
-  --main-background: rgb(61, 125, 202);
+.container {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  max-width: 500px;
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
 }
 
-/** Project styling */
+.bottom-container {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-/** Your styles go here */
+h4,h2 {
+  color:plum;
+  margin-block: 0;
+  padding: 10px;
+}
+
+h5,h3 {
+  color: #f31149;
+  margin-block: 0;
+}
+
+.row1 {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.row2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
